@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+}
+.our-friend{
+    background-color:#F6F6F6 ; 
+ }
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-decoration: none; 
+
+}
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+.header{
+    height: 120px;
+}
+.header__right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header__left{
+    font-size: 32px;
+    
+    align-items: flex-start;  
+}
+a{
+    text-decoration: none; 
+}
+.bout{
+    margin-left: 35px;
+}
+.bot__text{
+    padding-top: 10px;
+    font-size: 13px;
+}
+.our-friend__cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h1{
+    text-align: center;
+    padding:80px 0px 60px 0px;
+    font-size: 35px;
+}
+.pet-card__name{
+    margin:30px 0px 30px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+.pet-card{
+    margin-bottom: 30px;
+    background-color: #FAFAFA;
+    display:flex;
+    flex-direction: column;
+    border: 2px solid #FAFAFA;
+    border-radius: 9px;
+    
+}
+.pet-card__btn{
+    text-align: center;
+    /* margin:45px 0px 45px 0px; */
+    border:2px solid #F1CDB3;
+    border-radius: 100px;
+    padding: 15px 45px;
+}
+.learn{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.our-friend__paginatation{
+    text-align: center;
+    padding-top: 40px;
+}
+.pagination{
+    padding: 0px 20px;
+    color: #CDCDCD;
+    border-radius: 100px;
+    border: 2px solid #CDCDCD;
+    Width: 52px;
+    height: 52px;
+
+}
+.pagination__number{
+    padding:0px 20px;
+    border:2px solid #CDCDCD;
+    border-radius: 100px;
+}
+ .footer__content{
+    display:flex;
+    justify-content: space-between;
+} 
+footer{
+    background: url(), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+   
+
+    color: #F1CDB3;
+}
+.footer__left{
+    padding-left: 40px;
+   
+}
+
+.quest{
+    font-size: 35px;
+    padding-top: 56px;
+    color:#FAFAFA;
+}
+.email{
+    display: flex;
+    
+    padding-top: 46px;
+}
+.email__png{
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+.phone{
+    display: flex;
+    
+}
+.phone__png{
+    margin-right: 20px;
+}
+.text__center{
+    color:#FAFAFA;
+    font-size: 35px;
+    padding-top: 56px;
+}
+.addres{
+    display: flex;
+    padding-top: 46px;
+    
+}
+.second__addres{
+    display: flex;
+    padding-top: 18px; 
+}
+.pin__png{
+    margin-right: 20px;
+}
+.footer__png{
+    padding-top:20px;
+}
+
